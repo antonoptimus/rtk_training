@@ -1,5 +1,6 @@
 import "./App.css";
 import PostContainer from "./components/PostContainer";
+import PostContainer2 from "./components/PostContainer2";
 
 function App() {
   // const dispatch = useAppDispatch();
@@ -17,6 +18,7 @@ function App() {
       {error && <h1>{error}</h1>}
       {JSON.stringify(users, null, 2)} */}
       <PostContainer />
+      <PostContainer2 />
     </div>
   );
 }
